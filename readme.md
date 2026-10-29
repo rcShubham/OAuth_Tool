@@ -1,10 +1,10 @@
-# OAuth Setup Assistant 🛡️
+# OAuth Setup Assistant 
 
 A modern, AI-powered web application that guides developers through the painful process of configuring OAuth applications for external services.
 
 Instead of scouring through outdated or fragmented documentation, developers can select their provider, specify their application type and environment, and receive a tailored, step-by-step checklist with contextual advice.
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 To run this project locally:
 
@@ -41,7 +41,7 @@ To run this project locally:
    
    ```
 
-## 🧠 Key Decisions
+## Key Decisions
 
 * **Generative AI with Structured Output:** We utilized the Gemini API not just for chat, but to actively research the web for documentation. By forcing the LLM to output according to a strict JSON schema, we ensure the UI consistently renders interactive checklists, scopes, and time estimates, rather than returning a wall of markdown text.
 
@@ -51,7 +51,7 @@ To run this project locally:
 
 * **Time-to-Value:** Estimated times are displayed for every step to help developers plan their work.
 
-## 🔍 Verification & Learnings (QA)
+## Verification & Learnings (QA)
 
 During the development and testing of this agent against real sources, we discovered the following:
 
@@ -61,7 +61,7 @@ During the development and testing of this agent against real sources, we discov
 
 3. **Corrections Made:** Initially, the AI would sometimes invent provider requirements (like approval timelines). We corrected this by adjusting the system prompt to explicitly forbid inventing SLAs and to rely strictly on Google Search grounding.
 
-## ⚠️ Limitations
+## Limitations
 
 * **Documentation Paywalls:** If an identity provider hides their developer documentation behind a login wall, the AI agent will not be able to read it and may fail to generate a highly accurate guide.
 
