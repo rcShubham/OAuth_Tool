@@ -4,10 +4,6 @@ A modern, AI-powered web application that guides developers through the painful 
 
 Instead of scouring through outdated or fragmented documentation, developers can select their provider, specify their application type and environment, and receive a tailored, step-by-step checklist with contextual advice.
 
-## 🚀 Live Demo
-
-*(Insert your Vercel/Netlify deployment link here)*
-
 ## 🛠️ Setup Instructions
 
 To run this project locally:
